@@ -1,0 +1,50 @@
+a {
+    color: forestgreen;
+}
+
+h1 {
+    font-size: 5.9vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 2vmin;
+}
+
+.rahmen {
+    padding: 20px;
+}
+
+.rand {
+    border: 1px solid rgba(22, 35, 63, 0.88);
+  }  
+
+.responsive {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+  }
+
+#first {
+    font-size: 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#speciallink {
+    color: firebrick;
+}
+
+#supertable {
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) and (inverted-colors) {
+    body {
+      background-color: lightblue;
+    }
+  }
